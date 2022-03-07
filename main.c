@@ -53,22 +53,22 @@ int main() {
                     BNtableau[ligne][col] += 10;
 
                 //Affichage du tableau
-                printf("\n   A  B  C  D  E  F  G  H  I  J ");
+                printf("\n    A   B   C   D   E   F   G   H   I   J ");
                 for (int ligne = 0; ligne < 10; ligne++) {
                     printf("\n");
                     printf("%2d", ligne + 1);
                     for (int col = 0; col < 10; col++) {
                         if (BNtableau[ligne][col] < 10) {
-                            printf(" _|");
+                            printf(" [ ]");
                         }
                         if (BNtableau[ligne][col] == 10) {
-                            printf(" O|");
+                            printf(" [O]");
                         }
                         if (BNtableau[ligne][col] > 10) {
-                            printf(" X|");
+                            printf(" [X]");
                         }
                         if (BNtableau[ligne][col] > 20) {
-                            printf(" /|");
+                            printf(" [/]");
                         }
                     }
                 }
