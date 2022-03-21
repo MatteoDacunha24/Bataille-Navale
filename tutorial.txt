@@ -1,0 +1,5 @@
+Vous avez choisi le tutoriel le voici :
+
+Quand vous lancerez le jeux vous aurez un message affiché qui vous demandera de choisir une colonne de A à J,
+ensuite vous devrez choisir une ligne de 1 à 10. Après ça vous dira si vous avez touché ou raté. Cela jusqu'à qu'il
+ne reste plus de bateaux
