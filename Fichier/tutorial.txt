@@ -1,0 +1,8 @@
+Vous avez choisi le tutoriel le voici :
+
+                                            Les règles sont les suivantes :
+                Devant vous une grille, sur cette grille cinq bateaux de longueur variant entre deux et cinq cases.
+                Pour tirer, vous devez entrez une combinaison d'une lettre (A à J) puis d'un chiffre (1 à 10).
+                À chaque coup, vous verrez l'un de ces signes apparaitre :
+                O = Manqué                      X = Touché
+                La partie se termine lorsque vous avez touché tous les bateaux.
