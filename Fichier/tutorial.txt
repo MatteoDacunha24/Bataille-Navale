@@ -1,4 +1,4 @@
-Vous avez choisi le tutoriel le voici :
+                Vous avez choisi le tutoriel le voici :
 
                                             Les règles sont les suivantes :
                 Devant vous une grille, sur cette grille cinq bateaux de longueur variant entre deux et cinq cases.

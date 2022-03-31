@@ -1,13 +1,20 @@
 // Auteur : Matteo Da Cunha
 // Projet : Bataille Navale - MA-20
 // Date début : 07.03.2022
-// Date fin : 28.02.2022
+// Date fin : 31.02.2022
 
 #include <stdio.h>
 #include <windows.h>
 #include <time.h>
 
-
+//**************************************Variable************************************
+int coup=0;
+char pseudo[20];
+int choix;
+int nombreCase;
+char RepCol[] = "A";
+int col, ligne;
+int variablealeatoire;
 
 //**************************************Affiche de Fichier************************************
 
@@ -78,17 +85,9 @@ int lectureFichierVersTableau(char nomFichier[]) {
     }
 }
 
-//**************************************Fonctions************************************
 
 int main() {
     SetConsoleOutputCP(65001);
-    int coup=0;
-    char pseudo[20];
-    int choix;
-    int nombreCase;
-    char RepCol[] = "A";
-    int col, ligne;
-    int variablealeatoire;
 
         //**************************************MENU************************************
 
